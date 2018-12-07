@@ -58,3 +58,6 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+# yii-test-api
+Followed this tutorial: http://budiirawan.com/setup-restful-api-yii2/
+
