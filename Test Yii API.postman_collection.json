@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "3a4f6aca-760c-4424-9ea5-01728276ab8f",
+		"name": "Test Yii API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET /countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii2-advanced-api",
+						"api",
+						"web",
+						"v1",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /countries/:code",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries/AU",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii2-advanced-api",
+						"api",
+						"web",
+						"v1",
+						"countries",
+						"AU"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /Countries",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "code",
+							"value": "GR",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Greece",
+							"type": "text"
+						},
+						{
+							"key": "population",
+							"value": "11000000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii2-advanced-api",
+						"api",
+						"web",
+						"v1",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH /Countries/:code",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Greece",
+							"type": "text"
+						},
+						{
+							"key": "population",
+							"value": "11300000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries/GR",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii2-advanced-api",
+						"api",
+						"web",
+						"v1",
+						"countries",
+						"GR"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE /countries/:code",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries/GR",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"yii2-advanced-api",
+						"api",
+						"web",
+						"v1",
+						"countries",
+						"GR"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
