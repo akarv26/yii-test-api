@@ -15,7 +15,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries",
+					"raw": "http://localhost/yii2-test-api/api/web/v1/countries",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -41,7 +41,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries/AU",
+					"raw": "http://localhost/yii2-test-api/api/web/v1/countries/AU",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -91,7 +91,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries",
+					"raw": "http://localhost/yii2-test-api/api/web/v1/countries",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -135,7 +135,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries/GR",
+					"raw": "http://localhost/yii2-test-api/api/web/v1/countries/GR",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -162,7 +162,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost/yii2-advanced-api/api/web/v1/countries/GR",
+					"raw": "http://localhost/yii2-test-api/api/web/v1/countries/GR",
 					"protocol": "http",
 					"host": [
 						"localhost"
